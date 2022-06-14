@@ -1,0 +1,13 @@
+version: "3.3"
+services:
+
+  maboss_course:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      
+    image: maboss_course
+    container_name: maboss_course
+    ports:
+      - "8888:8888"
+
