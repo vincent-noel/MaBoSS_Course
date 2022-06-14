@@ -10,4 +10,7 @@ services:
     container_name: maboss_course
     ports:
       - "8888:8888"
+    volumes:
+      - /home/vincent/Work/code/Notebooks/MaBoSS_Course/:/notebook/MaBoSS_Course
+    
 
