@@ -11,6 +11,6 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - /home/vincent/Work/code/Notebooks/MaBoSS_Course/:/notebook/MaBoSS_Course
+      - /home/vincent/Work/code/Notebooks/MaBoSS_Course/course:/notebook/course
     
 
